@@ -1,0 +1,80 @@
+body{
+    background-color: #141519;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 150px;
+    font-family: 'Overpass';
+}
+.box{
+    margin: auto;
+    width: 324px;
+    background-color: #1f2630;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.box-icone img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #252d36;
+    width: 24px;
+    padding: 15px;
+    border-radius: 50%;
+}
+.box-icone img:hover{
+    background-color:#6e6e6e
+}
+
+.box-title h3{
+    color: white;
+    font-weight: normal;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0px 0px 0px;
+}
+.box-texto p{
+    font-size: 15px;
+    color: #acacac;
+}
+.box-numeros{
+    display: flex;
+    justify-content: center;
+}
+.numeros{
+    margin: 20px 6px 20px 6px;
+
+}
+.numeros a{
+    background-color: #252d36;
+    padding: 23px;
+    border-radius: 10%;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+.numeros a:hover{
+    background-color: #fc7614;
+}
+.box-botao{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 20px 0px;
+}
+.botao button{
+    background-color: #fc7614;
+    width: 320px;
+    padding: 15px 20px 15px 20px;
+    border-radius: 20px;
+    font-weight: 600px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+
+}
+.botao button:hover{
+    background-color: #0f1113;
+    cursor: pointer;
+}
